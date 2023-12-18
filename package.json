@@ -1,0 +1,21 @@
+{
+  "name": "api-doc",
+  "version": "1.0.0",
+  "description": "This api was built with Fastify and documented with Swagger",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "John",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.25.1",
+    "fastify-swagger": "^5.2.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
